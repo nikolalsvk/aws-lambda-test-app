@@ -1,0 +1,15 @@
+{
+  "name": "lambda-test-app",
+  "version": "1.0.0",
+  "description": "Test app for AWS Lambda service",
+  "main": "index.js",
+  "devDependencies": {
+    "grunt": "0.4.*",
+    "grunt-aws-lambda": "0.*.*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nikolalsvk",
+  "license": "ISC"
+}
