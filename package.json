@@ -3,10 +3,23 @@
   "version": "1.0.0",
   "description": "Test app for AWS Lambda service",
   "main": "index.js",
+  "dependencies": {
+    "cheerio": "0.18.0",
+    "request": "2.49.0",
+    "mustache": "0.8.2",
+    "moment": "2.8.4"
+  },
   "devDependencies": {
     "grunt": "0.4.*",
-    "grunt-aws-lambda": "0.*.*"
+    "grunt-aws-lambda": "0.*.*",
+    "aws-sdk": "2.0.23"
   },
+  "bundledDependencies": [
+    "cheerio",
+    "request",
+    "mustache",
+    "moment"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
