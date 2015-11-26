@@ -1,5 +1,5 @@
 {
-  "name": "lambda-test-app",
+  "name": "testing-aws-lambda-semaphore",
   "version": "1.0.0",
   "description": "Test app for AWS Lambda service",
   "main": "index.js",

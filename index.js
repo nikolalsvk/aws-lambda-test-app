@@ -9,8 +9,7 @@ var moment = require('moment');
 exports.handler = function(event, context) {
   // Basic webpage scraper logic done in previous step
   // of testing
-  // console.log('webpage = ' + event.webpage);
-  // context.done(null, 'link-scraper complete.');
+  console.log('webpage = ' + event.webpage);
 
   request(event.webpage, function(err, response, body) {
     if (err) console.log(err, err.stack); // an error has happened
