@@ -8,7 +8,7 @@ grunt.initConfig({
   },
   lambda_deploy: {
     default: {
-      arn: 'arn:aws:lambda:us-west-2:057267302678:function:easy-lambda'
+      arn: 'arn:aws:lambda:us-west-2:057267302678:function:test-app'
     }
   },
   lambda_package: {
